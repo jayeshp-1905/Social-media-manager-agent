@@ -1,0 +1,54 @@
+/* Main background and font */
+.stApp {
+    background-color: #0E1117;
+    color: #E0E0E0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+    background-color: #161B22;
+    border-right: 1px solid #30363D;
+}
+
+/* Title and Header styling */
+h1 {
+    color: #58A6FF;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+}
+
+/* Input boxes */
+.stTextInput>div>div>input, .stSelectbox>div>div>select {
+    background-color: #0D1117;
+    color: white;
+    border: 1px solid #30363D;
+    border-radius: 8px;
+}
+
+/* Button styling - The "Action" look */
+.stButton>button {
+    width: 100%;
+    background: linear-gradient(135deg, #1f6feb 0%, #1158c7 100%);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(31, 111, 235, 0.4);
+    background-color: #388bfd;
+}
+
+/* Result box (The generated content) */
+.stInfo {
+    background-color: #161B22;
+    border: 1px solid #30363D;
+    border-radius: 12px;
+    padding: 20px;
+    color: #C9D1D9;
+}
